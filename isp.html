@@ -1,0 +1,52 @@
+<html xmlns="https://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>ISP 2021-22</title>
+  </head>
+  <body>
+    <div id="page">
+      <div id="header">
+	<div id="headerTitle">ISP 2021-22</div>
+      </div>
+      <div id="bar">
+	<a href="home.html">Home</a>
+      </div>
+      <div class="contentText">
+	<p>For my ISP last year, I made a variation of the Pong game. I worked with 2 of my friends from class, Izec and Geraldine, and it took us about 3-4 weeks to complete our entire ISP. There were some minor issues with the game, however, so it didn't work 100% of the time, more like 98% of the time. I will include some sections of our code below.</p>
+      </div>
+      <div class="contentTitle"><h1>ISP Code</h1></div>
+      <div class="contentText">
+	<p>class InteractionLayer : Layer, KeyDownHandler{
+<br></br>
+	  let ball = Ball()
+<br></br>
+let paddleLeft = Paddle(rect:Rect(size:Size(width:10, height:100)))
+<br></br>
+let paddleRight = Paddle(rect:Rect(size:Size(width:10, height:100)))
+<br></br>
+init() {
+	  // Using a meaningful name can be helpful for debugging
+<br></br>
+super.init(name:"Interaction")
+
+	  // We insert our RenderableEntities in the constructor
+<br></br>
+insert(entity: ball, at: .front)
+<br></br>
+ball.changeVelocity(velocityX: 6, velocityY: 10)
+<br></br>
+	  insert(entity: paddleLeft, at: .front)
+<br></br>
+insert(entity: paddleRight, at: .front)
+
+	  }
+	  <br></br>
+	  We used this code in the Interaction layer to make sure that our ball and the paddles would interact with each other. This part of the code, however was used to render them in the right layer.
+	  <br></br>
+	</p>
+	</div>
+    </div>
+  </body>
+</html>
+

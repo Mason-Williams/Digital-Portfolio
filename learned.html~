@@ -1,0 +1,20 @@
+<html xmlns="https://w3.org/1999/xhtml">
+  <head>
+    <meta http-equipv="Content-Type" content="text/html ; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>What I've Learned</title>
+  </head>
+  <body>
+    <div id="page">
+      <div id="header">
+	<div id="headerTitle">What I've Learned</div>
+      </div>
+      <div id="bar">
+	<a href="home.html">Home</a>
+      </div>
+      <div class="contentText">
+	<p>In my freshman year, we learned a little snippet of Javascript, but we mainly focused on writing code in Python. This was in Into to Computer Science, so there wasn't many advanced projects that we had to do. In my sophomore year, we focused mainly on Swift, with a little bit of HTML sprinkled in the mix. This was in Computer Science 1, where we were expected to complete some more challenging projects. So far, my favorite language is Python, mainly because it is a very simple and easy to understand language.</p>
+      </div>
+    </div>
+  </body>
+</html>

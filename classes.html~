@@ -1,0 +1,14 @@
+<html xmlns="https://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Classes</title>
+  </head>
+  <body>
+    <div id="page">
+      <div id="header">
+	<div id="headerTitle">My Classes</div>
+      </div>
+      <div id="bar">
+	<a href="home.html">Home</a>
+	</div>
